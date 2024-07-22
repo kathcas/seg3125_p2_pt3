@@ -1,3 +1,5 @@
+import ImageToggleButton from "./imagebutton";
+
 const Home = () => {
 
     const handleClick = () => {
@@ -11,9 +13,8 @@ const Home = () => {
     return ( 
         <div className="home">
             <h2>Grand Manan Cottage Retreats</h2>
-            <button onClick={handleClick}>Click me</button>
-            <button onClick={(e) => {handleClickAgain('Casper', e)}}>Click me again</button>
-        </div>
+            <ImageToggleButton />
+            </div>
      );
 }
  

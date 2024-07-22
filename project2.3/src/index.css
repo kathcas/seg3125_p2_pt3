@@ -43,3 +43,19 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+p {
+  padding: 10px;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.accordion-content {
+  padding-left: 20px;
+}
