@@ -18,6 +18,9 @@ function App() {
       <section id="cottages">
         <cottages />
       </section>
+      <section id="attractions">
+        <attractions />
+      </section>
     </div>
   );
 }
