@@ -10,21 +10,15 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <section id="home">
         <div className="content">
           <Home />
         </div>
-      </section>
-      <section id="cottages">
         <div className="content">
           <cottages />
         </div>
-      </section>
-      <section id="attractions">
         <div className="content">
           <attractions />
         </div>
-      </section>
     </div>
   );
 }
