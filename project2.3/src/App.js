@@ -16,10 +16,14 @@ function App() {
         </div>
       </section>
       <section id="cottages">
-        <cottages />
+        <div className="content">
+          <cottages />
+        </div>
       </section>
       <section id="attractions">
-        <attractions />
+        <div className="content">
+          <attractions />
+        </div>
       </section>
     </div>
   );
