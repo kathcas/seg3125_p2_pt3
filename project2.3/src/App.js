@@ -1,6 +1,7 @@
 
 import Navbar from './navbar';
 import Home from './home';
+import cottages from './cottages';
 
 function App() {
   
@@ -9,9 +10,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="content">
-        <Home />
-      </div>
+      <section id="home">
+        <div className="content">
+          <Home />
+        </div>
+      </section>
+      <section id="cottages">
+        <cottages />
+      </section>
     </div>
   );
 }
